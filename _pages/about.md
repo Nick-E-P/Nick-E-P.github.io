@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-#About me
-#======
+# About me
+# ======
 My major interest is in the use of Bayesian data analysis to generate personalised descriptions of metabolic health from wearable device data.
 
 I completed my PhD in Systems Biology at the University of Manchester (UK) (thesis title: "Modelling and analysis of oscillations in gene expression through neural development"), where I was supervised by Nancy Papalopulu and co-supervised by Magnus Rattray. In 2016 I then moved to the EPFL (Switzerland) to start a postdoc with Felix Naef, where I continued to work on projects related to stochastic gene expression in the context of stem cells and circadian rhythms.
