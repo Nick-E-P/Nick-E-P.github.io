@@ -8,43 +8,43 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
-
-A data-driven personal website
+About me
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+My major interest is in the use of Bayesian data analysis to generate personalised descriptions of metabolic health from wearable device data.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+I completed my PhD in Systems Biology at the University of Manchester (UK) (thesis title: "Modelling and analysis of oscillations in gene expression through neural development"), where I was supervised by Nancy Papalopulu and co-supervised by Magnus Rattray. In 2016 I then moved to the EPFL (Switzerland) to start a postdoc with Felix Naef, where I continued to work on projects related to stochastic gene expression in the context of stem cells and circadian rhythms.
 
-Getting started
+In 2019 I received a Transition Postdoc Fellowship (TPdF) from Personalized Health and Related Technologies (PHRT), Switzerland. We started a collaboration with Tinh-Hai Collet (HUG, Geneva) on a new study called "The Multi-Sensor Study". I've been working as a researcher in Tinh-Hai's group at the HUG in Geneva since November 2021. We're currently applying the methodology developed during the Multi-Sensor Study to other projects related to gestational diabetes and time-restricted eating.
+
+Research Projects
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
+Combining wearable technologies, smartphone apps, and Bayesian data integration to understand human metabolic health
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
 
-Create content & metadata
+At the beginning of my PHRT transition postdoc fellowship, we collaborated with Tinh-Hai Collet on the SwissChronoFood project. Using food and drink recorded with a smartphone application, we showed that the processing level of food (using the NOVA classification system) has the highest number of significant relationships with metabolic syndrome components after age and sex. 
+
+We are currently finalising a study entitled “the Multi-Sensor Study”. The fun part of this project for me has been the involvement at all steps of the study, from study design, writing of the ethics proposal, participant recruitment, experiment organisation, data collection, statistical model development, and (let's hope soon!) publication.
+
+Now that I'm based in Tinh-Hai's group in Geneva, we are collaborating with Prof. Jardena Puder (CHUV) and Prof. Charna Dibner (UNIGE) on a large project funded by the Leenaards Foundation, the Vontobel Foundation and the SwissLife Jubiläumsstiftung for data collection and lab analyses. While the Multi-Sensor Study was an observational study in a healthy population, we are now translating this data analysis methodology into a global health problem (gestational diabetes) and an interventional study (with time-restricted eating). 
+
+The circadian clock at the single-transcript level
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
 
-**Markdown generator**
+While rhythmic gene expression of circadian genes is well-described in populations of cells, the single-cell mRNA dynamics of core-clock genes remains largely unknown. My colleague at the EPFL Alice Hugues used single molecule fluorescence in-situ hybridization (smFISH) at multiple time points to measure pairs of core-clock transcripts in mouse fibroblasts at single-molecule resolution. We developed a probabilistic model for multivariate mRNA counts using mixtures of negative binomials, which accounts for transcriptional bursting, circadian time and cell-to-cell heterogeneity, notably in cell size. Decomposing the mRNA variability into distinct noise sources showed that clock time contributes a small fraction of the total variability in mRNA number between cells.
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
+Transcriptional memory in stem cells
 ------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+Upon moving to the Naef lab at the EPFL, I started a collaboration with the lab of David Suter (EPFL), where the goal was to quantify the relationship in gene expression between sister cells in embryonic stem cells after cell division. Using techniques based on Gaussian processes, we were able to quantify the propagation of transcriptional activity over time and across cell generations (Phillips, Nat Comms, 2019).
 
-For more info
+Identifying oscillations in single-cell live-imaging data
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+
+Multiple biological processes are driven by oscillatory gene expression at different time scales, but stochastic gene expression blurs the boundaries between aperiodic fluctuations and noisy oscillators. This creates a challenge for determining whether a single-cell gene expression profile is oscillating or not, because neither intuition nor pre-existing methods work well for identifying oscillatory activity in noisy biological time series. We created a statistical method for classifying whether an experimentally derived noisy time series is periodic using non-parametric regression with Gaussian processes. Our method can distinguish oscillatory gene expression from random fluctuations of non-oscillatory expression in single-cell time series, despite peak-to-peak variability in period and amplitude of single-cell oscillations.
+
+Mathematical models of emergent dynamics in stem cell decision-making
+------
+
+At the beginning of my PhD, my research focus on the bottom-up mathematical description of gene regulatory networks in neural stem cells. Specifically, we wanted to understand how the regulation of an oscillatory transcription factor by a micro-RNA could control the timing of neural differentiations. Originally, the work was based on deterministic dynamical models (Goodfellow, Nat Comms 2014), but I then extended the model to incorporate stochastic gene expression and performed an in-depth investigation into the consequences of biological noise on the timing of differentiation (Phillips, eLife 2016).
+
