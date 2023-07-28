@@ -8,15 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-# About me
+<!-- # About me -->
 # ======
 My major interest is in the use of Bayesian data analysis to generate personalised descriptions of metabolic health from wearable device data.
 
-I completed my PhD in Systems Biology at the University of Manchester (UK) (thesis title: "Modelling and analysis of oscillations in gene expression through neural development"), where I was supervised by Nancy Papalopulu and co-supervised by Magnus Rattray. In 2016 I then moved to the EPFL (Switzerland) to start a postdoc with Felix Naef, where I continued to work on projects related to stochastic gene expression in the context of stem cells and circadian rhythms.
+I completed my PhD in Systems Biology at the University of Manchester (UK) (thesis title: "Modelling and analysis of oscillations in gene expression through neural development"), where I was supervised by Nancy Papalopulu and co-supervised by Magnus Rattray. In 2016 I then moved to the EPFL (Lausanne, Switzerland) to start a postdoc with Felix Naef, where I continued to work on projects related to stochastic gene expression in the context of stem cells and circadian rhythms.
 
-In 2019 I received a Transition Postdoc Fellowship (TPdF) from Personalized Health and Related Technologies (PHRT), Switzerland. We started a collaboration with Tinh-Hai Collet (HUG, Geneva) on a new study called "The Multi-Sensor Study". I've been working as a researcher in Tinh-Hai's group at the HUG in Geneva since November 2021. We're currently applying the methodology developed during the Multi-Sensor Study to other projects related to gestational diabetes and time-restricted eating.
+In 2019 I received a Transition Postdoc Fellowship (TPdF) from Personalized Health and Related Technologies (PHRT), Switzerland. We started a collaboration with Tinh-Hai Collet at the HUG (Geneva, Switzerland) on a new study called "The Multi-Sensor Study". I've been working as a researcher in Tinh-Hai's group at the HUG since November 2021. We're currently applying the methodology developed during the Multi-Sensor Study to other projects related to gestational diabetes and time-restricted eating. This work is funded by an SSED Young Independent Investigator Award (2022) and The Bo and Kerstin Hjelt Diabetes Foundation.
 
-Research Projects
+# ======
+
+<!-- Research Projects
 ======
 
 Combining wearable technologies, smartphone apps, and Bayesian data integration to understand human metabolic health
@@ -47,4 +49,4 @@ Mathematical models of emergent dynamics in stem cell decision-making
 ------
 
 At the beginning of my PhD, my research focus on the bottom-up mathematical description of gene regulatory networks in neural stem cells. Specifically, we wanted to understand how the regulation of an oscillatory transcription factor by a micro-RNA could control the timing of neural differentiations. Originally, the work was based on deterministic dynamical models (Goodfellow, Nat Comms 2014), but I then extended the model to incorporate stochastic gene expression and performed an in-depth investigation into the consequences of biological noise on the timing of differentiation (Phillips, eLife 2016).
-
+ -->

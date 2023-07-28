@@ -9,27 +9,38 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* University of Manchester, UK. 2016. PhD Integrative Systems Biology
-* Durham University, UK. 2011. Physics Masters, MPhys
+
 
 Work experience
 ======
 * HUG, Switzerland. November 2021 - present
-  * Postdoctoral researcher
+  * Project co-ordinator
   * Supervisor: Dr Tinh-Hai Collet
+  * Lead data analysis – responsible for processing and analysing diverse datasets to extract metabolic health parameters using wearable device and clinical data
+  * Specialised in projects focussing on gestational diabetes and time-restricted eating, leveraging a range of data types, including continuous glucose monitoring, actigraphy, smartphone app data, and clinical measurements
+  * Funded by SSED Young Independent Investigator Award (2022) and The Bo and Kerstin Hjelt Diabetes Foundation
+
 
 * EPFL, Switzerland. November 2016 - November 2021
   * Postdoctoral researcher 
   * Supervisor: Prof. Felix Naef
+  * Personal investigator for the "MultiSensor Study", funded by a Transition Postdoc Fellowship (Personalized Health and Related Technologies (PHRT), Switzerland)
+  * Analysis of smartphone application data of food and drinks to assess the relationships between the timing and processing of food and metabolic health (project SwissChronoFood)
+  * Hierarchicial Bayesian models of stochastic gene expression in the context of stem cells and circadian rhythms
 
 * University of Manchester, UK. October 2015 - October 2016
   * Postdoctoral researcher 
   * Supervisor: Prof. Nancy Papalopulu
+  * Dynamic modelling and single-cell time series analysis to understand gene regulation in neural stem cell maintenance
+
+Education
+======
+* University of Manchester, UK. 2016. PhD Integrative Systems Biology
+* Durham University, UK. 2011. Physics Masters, MPhys  
 
 Publications
 ======
+* **Phillips N. E.**, Collet TH, Naef F. Article Uncovering personalized glucose responses and circadian rhythms from multiple wearable biosensors with Bayesian dynamical modeling Uncovering personalized glucose responses and circadian rhythms from multiple wearable biosensors with Bayesian dynamical modeling. Cell Reports Methods 2023; 100545
 
 * Papageorgiou M, Biver E, Mareschal J, **Phillips N. E.**, Hemmer A, Biolley E, et al. The effects of time‐restricted eating and weight loss on bone metabolism and health: a 6‐month randomized controlled trial. Obesity. 2022; 1–11
 
@@ -51,7 +62,7 @@ Publications
 
 * Goodfellow, M., **Phillips, N. E.**, Manning, C., Galla, T., Papalopulu, N. (2014). microRNA input into a neural ultradian oscillator controls emergence and timing of alternative cell states. Nature Communications. 5, 3399
 
-
+<!-- 
 
 #  <ul>{% for post in site.publications %}
 #    {% include archive-single-cv.html %}
@@ -65,4 +76,4 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
-
+ -->
